@@ -1,0 +1,15 @@
+
+[project]
+name = "my-application" # You might want to change this to your application's actual name
+version = "0.1.0" # You might want to change this to your application's actual version
+description = "A brief description of your application" # Add a description
+
+dependencies = [
+    "realtimestt==0.3.104",
+    "realtimetts[kokoro,coqui,orpheus]==0.5.5",
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "ollama",
+    "openai",
+]
